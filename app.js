@@ -4,5 +4,20 @@ let listaNombres = []
 function agregarNombres() {
     let nombresAmigos = document.getElementById("amigo");
 
-    
+    for (let i = 0; i < 10; i++) {
+        if (nombresAmigos = ""){
+            alert("Por favor, inserte un nombre");
+        }else{
+           listaNombres.push(nombresAmigos) 
+        }
+        
+        
+        function limpiarCaja() {
+            document.getElementById("amigo")="";
+        }
+        
+        
+        const element = array[i];
+        
+    }
 }
